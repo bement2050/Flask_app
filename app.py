@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, redirect, url_for, request
 app = Flask(__name__)
 
@@ -16,3 +17,14 @@ def login():
 
 if __name__ == '__main__':
    app.run(debug = True)
+=======
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+   return 'Hello Worlddd'
+
+if __name__ == '__main__':
+   app.run()
+>>>>>>> 32b6cb935aff57978f7fb25930b63a649b2f9494
